@@ -8,7 +8,6 @@ input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
     margin-bottom: 4px;
 
 }
@@ -17,7 +16,12 @@ button {
     background: #5f9341;
     color:white;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #5f9341;
     font-weight: bold;
     
+}
+
+#delete-btn {
+    color:#5f9341;
+    background-color: white;
 }
